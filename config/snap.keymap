@@ -49,7 +49,7 @@
 			label = "Function";
 			sensor-bindings = <&inc_dec_kp C_NEXT C_PREV &inc_dec_kp C_NEXT C_PREV>;
 			bindings = <
-             	&bootloader &trans   &trans   &trans   &trans   &trans   &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans       &trans
+             	&bootloader &trans   &trans   &trans   &trans   &trans   &trans     &trans   &trans   &trans   &trans    &trans      &trans      &out OUT_TOG &kp PAUSE_BREAK
 &trans     	&trans      &trans   &trans   &trans   &trans   &trans   &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans       &trans     &bt BT_NXT
 &trans       	&trans      &trans   &trans   &trans   &trans            &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans       &trans     &bt BT_CLR
 &rgb_ug RGB_BRI &trans      &trans   &trans   &trans   &trans            &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans     		&bt BT_PRV
